@@ -65,6 +65,8 @@
 // 3. Function with return
 // 4. Function Expression
 // 5. Arrow Function
+// 6.Anonymus Function
+// 7.iife
 
 /* 1.Simple functions
 
@@ -216,8 +218,52 @@ areaOfSquare(3)
 // }
 // sayHello()
 
-let sayHello1 = function(num1, num2){
-    return num1+num2;
-}
-let result = sayHello1(2,5)
-console.log(result*3);
+// let sayHello1 = function(num1, num2){
+//     return num1+num2;
+// }
+// let result = sayHello1(2,5)
+// console.log(result*3);
+
+// ARROW Functions: 
+// --> it was introduced in es6 
+// --> arrow functions allow us to write shorter function syntax
+
+
+/* 
+  Before arrow functions
+  function sayhello(){
+    console.log("hey")
+  }
+  
+  sayhello()
+  
+
+  let sayHello() = function(){
+   console.log("hello")
+  }
+   sayHello();
+   */
+
+
+//    Arrow Functions:
+ 
+// let sayHello = () => 
+// {
+//   console.log("heyy")    
+// }
+
+// sayHello()
+// // arrow functions are declared just like function expression but removes function keyword and just write ()
+// and add "=>" after () and write the code block in {}
+
+// if your code block is just of one line then just write it without curly braces. e.g:
+
+// let sumNumbers = (a, b) => a+b;
+// console.log((2,3));
+
+// function sumNum(c,d) {
+//     return c+d;
+// }
+// sumNum(2,4);
+// console.log(sumNum(2,4));
+
